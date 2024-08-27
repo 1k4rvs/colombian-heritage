@@ -1,17 +1,17 @@
 import streamlit as st
 
+# python -m streamlit run .\streamlit_app.py
+
 st.set_page_config(layout="wide")
 st.header("""
-    Agroingenio
-    Soporte Colaborativo para la Protección del Patrimonio Industrial y Agroindustrial Colombiano
+    :compass: Agroingenio:
+    Soporte Colaborativo para la Protección del Patrimonio Industrial y Agroindustrial Colombiano :material/search_check:
 """, divider="orange")
 
-st.sidebar.markdown("Investigadora:")
-st.sidebar.markdown("Angela María Santa Quintero")
-st.sidebar.markdown("Desarrollador:")
-st.sidebar.markdown("Pedro Ángel Vaquero Díaz")
-st.image("resources/images/colombia-heritage-logo.jpg", caption="Soporte Colaborativo para la Protección del Patrimonio Industrial y Agroindustrial Colombiano")
-# st.image("resources/images/Navegacion_Del_Rio_Magdalena_Por_Vapor.jpg", caption="Navegacion Del Rio Magdalena por Vapor")
+st.sidebar.header(":compass: Agroingenio")
+st.sidebar.markdown("Soporte Colaborativo para la Protección del Patrimonio Industrial y Agroindustrial Colombiano :material/search_check:")
+
+st.image("resources/images/colombia-heritage-logo.jpg")
 
 routes = {
     'Ruta Cafetera: Manizales - Buenaventura (PAC-Caldas 1900-1930)':
@@ -25,14 +25,4 @@ routes = {
     },
 }
 
-st.markdown("Investigación y Desarrollo a cargo de Ángela María Santa Quintero y Pedro Ángel Vaquero Diaz &mdash :tulip::cherry_blossom::rose::hibiscus::sunflower::blossom:")
-
-
-left_pane, right_pane =  st.columns([3, 2])
-
-# Protection Type to Show
-selected_route = left_pane.selectbox(
-    "Selección de Ruta:",
-    options=sorted(routes.keys()),
-    index=0  # Default to the first group in the list
-)
+st.markdown("Investigación y Desarrollo a cargo de Ángela María Santa Quintero y Pedro Ángel Vaquero Diaz :woman_standing::man_standing: ")
