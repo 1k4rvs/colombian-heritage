@@ -2,12 +2,9 @@ import streamlit as st
 
 st.set_page_config(layout="wide")
 st.header("""
-    Soporte Colaborativo para la Protección del
-    Patrimonio Industrial y Agroindustrial Colombiano
+    Agroingenio
+    Soporte Colaborativo para la Protección del Patrimonio Industrial y Agroindustrial Colombiano
 """, divider="orange")
-
-st.markdown("Here's a bouquet &mdash;\
-            :tulip::cherry_blossom::rose::hibiscus::sunflower::blossom:")
 
 st.sidebar.markdown("Investigadora:")
 st.sidebar.markdown("Angela María Santa Quintero")
@@ -27,6 +24,9 @@ routes = {
          # 'ways': ['1172223300.csv','89114136.csv','100647095.csv','248954095.csv','91364457.csv','91365705.csv','100615639.csv']
     },
 }
+
+st.markdown("Investigación y Desarrollo a cargo de Ángela María Santa Quintero y Pedro Ángel Vaquero Diaz &mdash :tulip::cherry_blossom::rose::hibiscus::sunflower::blossom:")
+
 
 left_pane, right_pane =  st.columns([3, 2])
 
