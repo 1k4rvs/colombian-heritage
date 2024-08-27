@@ -1,0 +1,39 @@
+Type,Subtype,Name,Department,City,Latitude,Longitude,LocationCertified,Link
+Patrimonio Industrial,Cable,Cable Aéreo La Camelia,Caldas,Manizales,5.05569394279939,-75.486215137551,Yes
+Patrimonio Industrial,Cable,Cable Aéreo Buenavista,Caldas,Manizales,5.05884495602283,-75.45640397463097,No
+Patrimonio Industrial,Cable,Cable Aéreo El Once,Tolima,Herveo,5.066130043482475,-75.30233714453851,No
+Patrimonio Industrial,Cable,Cable Aéreo El Doce,Tolima,Herveo,5.071944663163302,-75.29313966189504,No
+Patrimonio Industrial,Cable,Cable Aéreo Fresno,Tolima,Fresno,5.14859700490627,-75.03610922114018,No
+Patrimonio Industrial,Cable,Cable Aéreo Mariquita,Tolima,Mariquita,5.194139484490981,-74.88722028972539,Yes
+Patrimonio Industrial,Ferrocarril,Estación de Mariquita,Tolima,Mariquita,5.1942519407328085,-74.88637674686862,Yes
+Patrimonio Industrial,Ferrocarril,Antigua Estación del Ferrocarril de Mariquita,Tolima,Honda,5.208164299976927,-74.73826906728279,Yes
+Patrimonio Industrial,Ferrocarril,Estación Perico,Tolima,Honda,5.286259649291835,-74.73629783053971,No
+Patrimonio Industrial,Puente,Puente sobre el Rio Guarinó,Tolima,Honda,5.2877,-74.7367,No
+Patrimonio Industrial,Ferrocarril,Estación de La Dorada,Caldas,La Dorada,5.453790213116938,-74.66178848323105,Yes
+Patrimonio Industrial,Puerto,Embarcadero de La Dorada,Caldas,La Dorada,5.4545727849190815,-74.66175789447935,Yes
+Patrimonio Industrial,Puerto,Puerto de Gamarra-Cesar,Cesar,Gamarra,8.318783559972657,-73.74546331139253,Yes
+Patrimonio Industrial,Puerto,Muelle El Banco Magdalena,Magdalena,El Banco,8.99305513819329,-73.96841017298388,Yes
+Patrimonio Industrial,WayPoint,,,,8.9841,-73.9805
+Patrimonio Industrial,WayPoint,,Magdalena,Guamal,9.1403,-74.2261
+Patrimonio Industrial,WayPoint,,Bolívar,Santa Cruz de Mompox,9.2350,-74.4166
+Patrimonio Industrial,WayPoint,,Bolívar,Peñoncito,9.2743,-74.4664
+Patrimonio Industrial,WayPoint,,Bolívar,Peñoncito,9.2350,-74.5182
+Patrimonio Industrial,WayPoint,,Bolívar,Santa Ana,9.3184,-74.5726
+Patrimonio Industrial,WayPoint,,Magdalena,Santa Bárbara de Pinto,9.4266,-74.6992
+Patrimonio Industrial,WayPoint,,Magdalena,Las Brisas,9.4295,-74.7393
+Patrimonio Industrial,WayPoint,,Bolívar,Tacamocho,9.4813,-74.7955
+Patrimonio Industrial,WayPoint,,Bolívar,Zambrano,9.7484,-74.8092
+Patrimonio Industrial,WayPoint,,Magdalena,Tenerife,9.8964,-74.8654
+Patrimonio Industrial,WayPoint,,Bolívar,San Agustín,9.9395,-74.8664
+Patrimonio Industrial,WayPoint,,Magdalena,Real del Obispo,9.9765,-74.7836
+Patrimonio Industrial,WayPoint,,Bolívar,Yucal,10.1282,-74.9439
+Patrimonio Industrial,WayPoint,,Magdalena,Pedraza,10.1923,-74.9211
+Patrimonio Industrial,Puerto,Puerto de Calamar,Bolivar,Calamar,10.253755082363734,-74.91148151120828,Yes
+Patrimonio Industrial,Puerto,Puerto Fluvial de Barranquilla,Atlántico,Barranquilla,10.98576063327465,-74.77545991285888,Yes
+Patrimonio Industrial,Ferrocarril,Estación Montoya,Atlántico,Barranquilla,10.989492534955131,-74.77959557040838,Yes
+Patrimonio Industrial,WayPoint,,Atlántico,Las Flores,11.0387,-74.8263
+Patrimonio Industrial,WayPoint,,Atlántico,Eduardo Santos - La Playa,11.0311,-74.8596
+Patrimonio Industrial,WayPoint,,Atlántico,Sabanilla,11.0398,-74.9175
+Patrimonio Industrial,WayPoint,,Atlántico,Salgar,11.0118,-74.9321
+Patrimonio Industrial,Ferrocarril,Estación Puerto Colombia,Atlántico,Puerto Colombia,10.988223097092881,-74.95910877363858,Yes
+Patrimonio Industrial,Puerto,Muelle de Puerto Colombia,Atlántico,Puerto Colombia,10.99273338762913,-74.96789157162492,BIC-NAL

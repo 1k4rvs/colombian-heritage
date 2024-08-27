@@ -1,0 +1,36 @@
+Type,Subtype,Name,Department,City,Latitude,Longitude,IATA_Id,OACI_Id,Link
+Aeropuerto,Internacional,El Dorado,Cundinamarca,Bogotá,4.70159,-74.1469,BOG,SKBO,https://es.wikipedia.org/wiki/Aeropuerto_Internacional_El_Dorado
+Aeropuerto,Internacional,José María Córdova,Antioquia,Medellín,6.16454,-75.4231,MDE,SKRG
+Aeropuerto,Internacional,Alfonso Bonilla Aragón,Valle del Cauca,Cali,3.54322,-76.3816,CLO,SKCL
+Aeropuerto,Internacional,Rafael Núñez,Bolívar,Cartagena,10.4424,-75.513,CTG,SKCG
+Aeropuerto,Internacional,Ernesto Cortissoz,Atlántico,Barranquilla,10.8896,-74.7808,BAQ,SKBQ
+Aeropuerto,Internacional,Palonegro,Santander,Bucaramanga,7.1265,-73.1848,BGA,SKBG
+Aeropuerto,Internacional,Simón Bolívar,Magdalena,Santa Marta,11.1196,-74.2306,SMR,SKSM
+Aeropuerto,Internacional,Matecaña,Risaralda,Pereira,4.81267,-75.7395,PEI,SKPE
+Aeropuerto,Internacional,Gustavo Rojas Pinilla,San Andrés y Providencia,San Andrés,12.5836,-81.7112,ADZ,SKSP
+Aeropuerto,Internacional,Alfredo Vásquez Cobo,Amazonas,Leticia,-4.19355,-69.9432,LET,SKLT
+Aeropuerto,Nacional,Vanguardia,Meta,Villavicencio,4.16787,-73.6138,VVC,SKVV,https://es.wikipedia.org/wiki/Aeropuerto_Vanguardia
+Aeropuerto,Nacional,Perales,Tolima,Ibagué,4.42161,-75.1333,IBE,SKIB
+Aeropuerto,Nacional,El Caraño,Chocó,Quibdó,5.69076,-76.6412,UIB,SKUI
+Aeropuerto,Nacional,Antonio Nariño,Nariño,Pasto,1.39625,-77.2915,PSO,SKPS
+Aeropuerto,Nacional,La Nubia,Caldas,Manizales,5.0296,-75.4647,MZL,SKMZ
+Aeropuerto,Nacional,Los Garzones,Córdoba,Montería,8.82374,-75.8258,MTR,SKMR
+Aeropuerto,Nacional,Yariguíes,Santander,Barrancabermeja,7.02433,-73.8068,EJA,SKEJ
+Aeropuerto,Nacional,El Edén,Quindío,Armenia,4.45424,-75.7664,AXM,SKAR
+Aeropuerto,Nacional,Camilo Daza,Norte de Santander,Cúcuta,7.92757,-72.5115,CUC,SKCC
+Aeropuerto,Nacional,Alfonso López Pumarejo,Cesar,Valledupar,10.435,-73.249,VUP,SKVP
+Aeropuerto,Nacional,La Florida,Nariño,Tumaco,1.81442,-78.7492,TCO,SKCO
+Aeropuerto,Nacional,El Alcaraván,Casanare,Yopal,5.31911,-72.384,EYP,SKYP
+Aeropuerto,Nacional,Fabio Alberto León Bentley,Vaupés,Mitú,1.25366,-70.2339,MVP,SKMU
+Aeropuerto,Nacional,Gustavo Artunduaga Paredes,Caquetá,Florencia,1.58919,-75.5644,FLA,SKFL
+Aeropuerto,Nacional,Jorge Enrique González,Guaviare,San José del Guaviare,2.57969,-72.6394,SJE,SKSJ
+Aeropuerto,Nacional,Reyes Murillo,Chocó,Nuquí,5.6964,-77.2806,NQU,SKNQ
+Aeropuerto,Nacional,Contador,Huila,Pitalito,1.85777,-76.0857,PTX,SKPI
+Aeropuerto,Nacional,Benito Salas,Huila,Neiva,2.95014,-75.294,NVA,SKNV
+Aeropuerto,Nacional,Jorge Isaacs,Vichada,Puerto Carreño,6.18472,-67.4932,PCR,SKPC
+Aeropuerto,Nacional,Guillermo León Valencia,Cauca,Popayán,2.4544,-76.6093,PPN,SKPP
+Aeropuerto,Nacional,El Tambo,Nariño,El Tambo,1.21619,-77.334,TBO,SKTB
+Aeropuerto,Nacional,Las Brujas,Sucre,Corozal,9.33274,-75.28523,CZU,SKCZ,https://es.wikipedia.org/wiki/Aeropuerto_Las_Brujas
+Aeropuerto,Nacional,San Luis,Nariño,Ipiales,0.86193,-77.6717,IPI,SKIP,https://metar-taf.com/es/SKIP
+Aeropuerto,Nacional,Gerardo Tobar López,Valle del Cauca,Buenaventura,3.81963,-76.98980,BUN,SKBU,https://metar-taf.com/es/airport/SKBU-gerardo-tobar-lopez-airport
+Aeropuerto,Regional,El Embrujo,San Andrés y Providencia,Providencia,13.35690,-81.35840,PVA,SKPV

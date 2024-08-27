@@ -1,0 +1,25 @@
+Type,Subtype,Name,Department,City,Latitude,Longitude,Link
+Puerto,Marítimo,Puerto de Barranquilla,Atlántico,Barranquilla,10.9631,-74.7627
+Puerto,Marítimo,Puerto de Buenaventura,Valle del Cauca,Buenaventura,3.8772,-77.0297,https://es.wikipedia.org/wiki/Puerto_de_Buenaventura
+Puerto,Marítimo,Puerto de Cartagena,Bolívar,Cartagena,10.3986,-75.5144
+Puerto,Marítimo,Puerto de Coveñas,Sucre, Coveñas,9.4078,-75.6907
+Puerto,Marítimo,Puerto de Tumaco,Nariño,Tumaco,1.8001,-78.8156
+Puerto,Marítimo,Puerto de Turbo,Antioquia,Turbo,8.0910,-76.7291
+Puerto,Marítimo,Puerto de Santa Marta,Magdalena,Santa Marta,11.24722,-74.20617,https://www.spsm.com.co/
+Puerto,Fluvial,Puerto de Arauca,Arauca,Arauca,7.0847,-70.7591
+Puerto,Fluvial,Puerto de Barrancabermeja,Santander,Barrancabermeja,7.0676,-73.8477
+Puerto,Fluvial,Puerto Carreño,Vichada,Puerto Carreño,6.1863,-67.4933
+Puerto,Fluvial,Puerto de Gamarra,Cesar,Gamarra,8.3197,-73.7443
+Puerto,Fluvial,Puerto de Guapi,Cauca,Guapi,2.5744,-77.8856
+Puerto,Fluvial,Puerto de Inírida,Guainía,Inírida,3.8653,-67.9238
+Puerto,Fluvial,Puerto Leguízamo,Putumayo,Puerto Leguízamo,-0.1934,-74.7833
+Puerto,Fluvial,Puerto de Leticia,Amazonas,Leticia,-4.2169, -69.9452
+Puerto,Fluvial,Puerto de La Dorada,Caldas,La Dorada,5.4498,-74.6698
+Puerto,Fluvial,Puerto Nariño,Amazonas,Puerto Nariño,-3.7711,-70.3562
+Puerto,Fluvial,Puerto de Neiva,Huila, Neiva,2.9273,-75.2819
+Puerto,Fluvial,Puerto de Mitú,Vaupés, Mitú,1.2534,-70.2354
+Puerto,Fluvial,Puerto de Puerto Asís,Putumayo, Puerto Asís,0.5052,-76.5005
+Puerto,Fluvial,Puerto de San José del Guaviare,Guaviare,San José del Guaviare,2.5721,-72.6447
+Puerto,Fluvial,Puerto de Quibdó,Chocó,Quibdó,5.6947,-76.6614
+Puerto,Fluvial,Puerto de Villavicencio,Meta,Villavicencio,4.1535,-73.6325
+Puerto,Fluvial,Puerto de Yopal,Casanare,Yopal,5.3489,-72.3998

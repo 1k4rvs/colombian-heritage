@@ -1,0 +1,9 @@
+Type,Subtype,Name,Department,City,Latitude,Longitude,ProtectionType,LegalReference,Link,Text,Image
+Patrimonio Industrial,Ferrocarril,Estación de Ferrocarril Túnel La Quiebra,Antioquia,Santiago,6.5414399863217,-75.157229822055,BIC-NAL,https://www.revistacredencial.com/historia/temas/tunel-de-la-quiebra
+Patrimonio Industrial,Aeropuerto,Antiguo Aeropuerto de Veranillo (Ubicación Aproximada),Atlántico,Barranquilla,11.004656389739958,-74.78456811121124,BIC-NAL
+Patrimonio Industrial,Puerto,Muelle de Puerto Colombia,Atlántico,Puerto Colombia,10.99273338762913,-74.96789157162492,BIC-NAL
+Patrimonio Industrial,Puente,Puente Colonial de Calicanto,Boyacá,Monguí,6.84499615907668,-72.69256331677151,BIC-NAL
+Patrimonio Industrial,Cable,Antigua estación del Cable Aéreo Manizales - Mariquita,Caldas,Manizales,5.05569394279939,-75.486215137551
+Patrimonio Industrial,Puente,Puente sobre el río Piendamó,Cauca,Piendamó,2.6252653760322415,-76.52164007450762
+Patrimonio Industrial,Cable,Torre de Herveo,Caldas,Manizales,5.0561242006545495,-75.48638048725547
+Patrimonio Industrial,Puerto,Antigua Intendencia Fluvial,Atlántico,Barranquilla,10.9858,-74.7758,BIC-NAL

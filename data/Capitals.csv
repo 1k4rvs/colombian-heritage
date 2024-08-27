@@ -1,0 +1,33 @@
+Type,Subtype,Name,Department,City,Latitude,Longitude,Link
+Capital,None,Leticia,Amazonas,Leticia,-4.2036,-69.9358
+Department,None,Medellín,Antioquia,Medellín,6.2442,-75.5812
+Department,None,Arauca,Arauca,Arauca,7.0847,-70.7591
+Department,None,Barranquilla,Atlántico,Barranquilla,10.9685,-74.7813
+Department,None,Cartagena,Bolívar,Cartagena,10.391,-75.4794,https://es.wikipedia.org/wiki/Provincia_de_Cartagena_(Nueva_Granada)
+Department,None,Tunja,Boyacá,Tunja,5.5353,-73.3678
+Department,None,Manizales,Caldas,Manizales,5.0689,-75.5174
+Department,None,Florencia,Caquetá,Florencia,1.6144,-75.6062
+Department,None,Yopal,Casanare,Yopal,5.3398,-72.3959
+Department,None,Popayán,Cauca,Popayán,2.4382,-76.6132
+Department,None,Valledupar,Cesar,Valledupar,10.4631,-73.2532
+Department,None,Quibdó,Chocó,Quibdó,5.691,-76.6498
+Department,None,Montería,Córdoba,Montería,8.757,-75.8857
+Department,None,Bogotá,Cundinamarca,Bogotá,4.6097,-74.0817
+Department,None,Inírida,Guainía,Inírida,3.866,-67.922
+Department,None,San José del Guaviare,Guaviare,San José del Guaviare,2.5681,-72.6423
+Department,None,Neiva,Huila,Neiva,2.9273,-75.2819
+Department,None,Riohacha,La Guajira,Riohacha,11.5447,-72.907
+Department,None,Santa Marta,Magdalena,Santa Marta,11.2411,-74.211
+Department,None,Villavicencio,Meta,Villavicencio,4.142,-73.6266
+Department,None,Pasto,Nariño,Pasto,1.2136,-77.2802
+Department,None,Cúcuta,Norte de Santander,Cúcuta,7.8945,-72.5078
+Department,None,Mocoa,Putumayo,Mocoa,1.1528,-76.6498
+Department,None,Armenia,Quindío,Armenia,4.5339,-75.6811
+Department,None,Pereira,Risaralda,Pereira,4.8133,-75.6961
+Department,None,San Andrés,San Andrés y Providencia,San Andrés,12.5847,-81.7006
+Department,None,Bucaramanga,Santander,Bucaramanga,7.1193,-73.1227
+Department,None,Sincelejo,Sucre,Sincelejo,9.3047,-75.3978
+Department,None,Ibagué,Tolima,Ibagué,4.4389,-75.2322
+Department,None,Cali,Valle del Cauca,Cali,3.4372,-76.5225
+Department,None,Mitú,Vaupés,Mitú,1.2512,-70.2358
+Department,None,Puerto Carreño,Vichada,Puerto Carreño,6.189,-67.4859
