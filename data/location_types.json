@@ -1,0 +1,42 @@
+{
+  "Patrimonio Industrial,Ferrocarril":
+  {"location_group": "Patrimonio Industrial", "icon_name": "train", "icon_color": "cadetblue", "icon_prefix": "fa"},
+
+  "Patrimonio Industrial,Aeropuerto":
+  {"location_group": "Patrimonio Industrial", "icon_name": "hands-holding-circle", "icon_color": "cadetblue", "icon_prefix": "fa"},
+
+  "Patrimonio Industrial,Puerto":
+  {"location_group": "Patrimonio Industrial", "icon_name": "ship", "icon_color": "cadetblue", "icon_prefix": "fa"},
+
+  "Patrimonio Industrial,Puente":
+  {"location_group": "Patrimonio Industrial", "icon_name": "bridge-water", "icon_color": "cadetblue", "icon_prefix": "fa"},
+
+  "Patrimonio Industrial,Cable":
+  {"location_group": "Patrimonio Industrial", "icon_name": "cable-car", "icon_color": "cadetblue", "icon_prefix": "fa"},
+
+  "Capitales":
+  {"location_group": "Capitales", "icon_name": "location-dot", "icon_color": "red", "icon_prefix": "fa"},
+
+  "Aeropuerto,Internacional":
+  {"location_group": "Aeropuertos Internacionales", "icon_name": "plane", "icon_color": "cadetblue", "icon_prefix": "fa"},
+
+  "Aeropuerto,Nacional":
+  {"location_group": "Aeropuertos Nacionales", "icon_name": "plane", "icon_color": "blue", "icon_prefix": "fa"},
+
+  "Aeropuerto,Regional":
+  {"location_group": "Aeropuertos Regionales", "icon_name": "plane", "icon_color": "lightblue", "icon_prefix": "fa"},
+
+  "Puerto,Marítimo":
+  {"location_group": "Puertos Mar\u00edtimos", "icon_name": "ship", "icon_color": "cadetblue", "icon_prefix": "fa"},
+
+  "Puerto,Fluvial":
+  {"location_group": "Puertos Fluviales", "icon_name": "ship", "icon_color": "green", "icon_prefix": "fa"},
+
+  "Volcán":
+  {"location_group": "Volcanes", "icon_name": "fire", "icon_color": "red", "icon_prefix": "fa"},
+
+  "Estación de Tren":
+  {"location_group": "Estaciones de Tren", "icon_name": "train", "icon_color": "cadetblue", "icon_prefix": "fa"}
+
+
+}
