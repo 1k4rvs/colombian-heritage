@@ -1,0 +1,12 @@
+Type,Subtype,Name,Department,City,Latitude,Longitude,LocationCertified,Link
+Patrimonio Industrial,Ferrocarril,Estación Manizales,Caldas,Manizales,5.0730,-75.5238,Yes
+Patrimonio Industrial,WayPoint,,Caldas,Villa María,5.0444,-75.5068
+Patrimonio Industrial,WayPoint,,Caldas,Chinchiná,4.9853,-75.6071
+Patrimonio Industrial,Ferrocarril,Antigua Estación del Ferrocarril de Armenia,Quindío,Armenia,4.532953396291205,-75.68013468861344,Yes
+Patrimonio Industrial,WayPoint,,,,4.4289,-75.8949
+Patrimonio Industrial,Ferrocarril,Antigua Estación del Ferrocarril de Zarzal,Valle del Cauca,Zarzal,4.3956,-76.0744,Yes
+Patrimonio Industrial,Ferrocarril,Estación de Cali,Valle del Cauca,Cali,3.4586504212677305,-76.52039532227084,No
+Patrimonio Industrial,Ferrocarril,Antigua Estación del Ferrocarril de Dagua,Valle del Cauca,Dagua,3.6574049640118536,-76.69325213620576,Yes
+Patrimonio Industrial,Ferrocarril,Antigua estación del Tren de Loboguerrero,Valle del Cauca,Loboguerrero,3.7637639272543337,-76.66863566162299,Yes
+Patrimonio Industrial,Ferrocarril,Antigua estación del Tren de Buenaventura,Valle del Cauca,Buenaventura,3.8909207891912354,-77.07951173949998,Yes
+Patrimonio Industrial,Puerto,Puerto de Buenaventura,Valle del Cauca,Buenaventura,3.892760313017085,-77.08124263144173,No
