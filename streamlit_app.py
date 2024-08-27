@@ -34,7 +34,7 @@ pg = st.navigation(
     {
         "Main": [main],
         "Items": [sites, routes],
-        "Maps": [maps],
+        "Maps": [maps]
     }
 )
 
