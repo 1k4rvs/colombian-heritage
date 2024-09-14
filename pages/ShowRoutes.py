@@ -9,6 +9,19 @@ import pandas as pd
 from folium import IFrame
 import json
 
+import base64
+from io import BytesIO
+from PIL import Image
+
+
+def get_image_as_base64(image_path):
+    img = Image.open(image_path)
+    buffer = BytesIO()
+    img.save(buffer, format="PNG")
+    img_str = base64.b64encode(buffer.getvalue()).decode()
+    return img_str
+
+
 routes = {
     'Ruta Cafetera: Manizales - Buenaventura (PAC-Caldas 1900-1930)':
         {'main_points': 'Ruta_Cafetera_Manizales_Buenaventura.csv',
@@ -86,14 +99,15 @@ with left_pane:
 
         visible_locations.append(new_point)
 
-        image_src = "resources/images/colombia-heritage-logo.jpg"
+        image_path = "resources/images/colombia-heritage-logo.jpg"
+        image_base64 = get_image_as_base64(image_path)
 
         if location_type != 'Patrimonio Industrial,WayPoint':
 
             # Create the HTML content for the popup
             html = f"""
                 <h4>{row['Name']}</h4>
-                <img src="{image_src}" width="150"><br>
+                <img src="data:image/jpg;base64,{image_base64}" width="150"><br>
                 <p>{row['Department']}, {row['City']}</p>
                 <p>Location: {m.location}</p>               
             """
