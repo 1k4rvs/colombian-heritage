@@ -4,7 +4,7 @@ left_pane, central_pane, right_pane =  st.columns([1,3,1])
 
 central_pane.header("""
     :compass: AgroIngenio:
-    Soporte Colaborativo para la Protección del Patrimonio Industrial y Agroindustrial Colombiano :material/search_check:
+    Soporte Colaborativo para la Protección del Patrimonio Industrial y Agroindustrial Colombiano :material/search_check: [Versión Alpha]
 """, divider="orange")
 
 # st.sidebar.header(":compass: AgroIngenio")

@@ -46,8 +46,7 @@ departments_to_show = left_pane.multiselect(
     default=sorted(set(departments_df['Department']))
 )
 
-
-with ((right_pane)):
+with (right_pane):
 
     # Create a Map of Colombia
     m = folium.Map(location=[6.3709, -75.2973], zoom_start=6)
