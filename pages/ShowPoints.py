@@ -49,7 +49,9 @@ departments_to_show = left_pane.multiselect(
 with (right_pane):
 
     # Create a Map of Colombia
-    m = folium.Map(location=[6.3709, -75.2973], zoom_start=6, min_zoom=5, max_zoom=16)
+    m = folium.Map(location=[6.3709, -75.2973],
+                   zoom_start=6, min_zoom=5, max_zoom=16,
+                   control_scale = True, )
 
     # Icon Definition
     with open('data/location_types.json') as json_file:
