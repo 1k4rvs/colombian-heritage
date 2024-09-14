@@ -41,15 +41,7 @@ right_pane.write(locations_df)
 with left_pane:
 
     # Create a Map of Colombia
-    m = folium.Map(location=[6.3709, -75.2973], zoom_start=6)
-
-    min_zoom_js = '''
-        <script>
-        var map = this;
-        map.setMinZoom(6);
-        </script>
-        '''
-    m.get_root().html.add_child(folium.Element(min_zoom_js))
+    m = folium.Map(location=[6.3709, -75.2973], zoom_start=6, min_zoom=6, max_zoom=12)
 
     # Icon Definition
     with open('data/location_types.json') as json_file:
