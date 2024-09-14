@@ -45,6 +45,7 @@ with left_pane:
                    zoom_start=6, min_zoom=5, max_zoom=16,
                    min_lat=16, max_lat= -1,
                    min_lon=-82, max_lon= -67,
+                   control_scale = True
                    )
 
     # Icon Definition
