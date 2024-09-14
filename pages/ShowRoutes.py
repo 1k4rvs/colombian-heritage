@@ -44,7 +44,7 @@ with left_pane:
     m = folium.Map(location=[6.3709, -75.2973],
                    zoom_start=6, min_zoom=5, max_zoom=16,
                    min_lat=16, max_lat= -1,
-                   min_lon=-82, max_lon= -66,
+                   min_lon=-82, max_lon= -67,
                    )
 
     # Icon Definition
