@@ -135,11 +135,11 @@ with (right_pane):
             ).add_to(m)
 
             visible_locations_info.append(
-                f'{location_type} {location_group} '
-                f'{row['Name']} {row['Department']} {row['City']} '
-                f'{location_types[location_type]['icon_color']} '
-                f'{location_types[location_type]['icon_name']} '
-                f'{location_types[location_type]['icon_prefix']}'
+                f"{location_type} {location_group} "
+                f"{row['Name']} {row['Department']} {row['City']} "
+                f"{location_types[location_type]['icon_color']} "
+                f"{location_types[location_type]['icon_name']} "
+                f"{location_types[location_type]['icon_prefix']} "
             )
 
 
