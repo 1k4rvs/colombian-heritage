@@ -32,7 +32,7 @@ selected_route = left_pane.selectbox(
     index=0  # Default to the first group in the list
 )
 
-locations_df = pd.read_csv(f'data/{routes[selected_route]['main_points']}')
+locations_df = pd.read_csv(f"data/{routes[selected_route]['main_points']}")
 list_of_ways = routes[selected_route]['ways']
 
 debug.write(list_of_ways)
@@ -80,7 +80,7 @@ with left_pane:
 
     for idx, row in locations_df.iterrows():
 
-        location_type = f'{row['Type']},{row['Subtype']}'.replace(',nan','')
+        location_type = f"{row['Type']},{row['Subtype']}".replace(',nan','')
         location_group = location_types[location_type]['location_group']
         location_department = row['Department']
 
@@ -117,11 +117,11 @@ with left_pane:
             folium.PolyLine(points, color="red", weight=3.5, dash_array='15', opacity=1).add_to(m)
 
         visible_locations_info.append(
-            f'{location_type} {location_group} '
-            f'{row['Name']} {row['Department']} {row['City']} '
-            f'{location_types[location_type]['icon_color']} '
-            f'{location_types[location_type]['icon_name']} '
-            f'{location_types[location_type]['icon_prefix']}'
+            f"{location_type} {location_group} "
+            f"{row['Name']} {row['Department']} {row['City']} "
+            f"{location_types[location_type]['icon_color']} "
+            f"{location_types[location_type]['icon_name']} "
+            f"{location_types[location_type]['icon_prefix']} "
         )
 
         debug.write(visible_locations_info)
