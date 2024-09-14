@@ -88,12 +88,14 @@ with left_pane:
 
         visible_locations.append(new_point)
 
+        image_src = "https://agroingenio.streamlit.app/~/+/media/494e0dfd8d06c829162b2b15878906b2770a25553f0b791656c4f096.jpg"
+
         if location_type != 'Patrimonio Industrial,WayPoint':
 
             # Create the HTML content for the popup
             html = f"""
                 <h4>{row['Name']}</h4>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Cabo_de_la_Vela%2C_Colombia.jpg/1280px-Cabo_de_la_Vela%2C_Colombia.jpg" width="150"><br>
+                <img src="{image_src}" width="150"><br>
                 <p>{row['Department']}, {row['City']}</p>
                 <p>Location: {m.location}</p>               
             """
