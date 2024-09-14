@@ -86,7 +86,7 @@ with left_pane:
 
         visible_locations.append(new_point)
 
-        image_src = "https://agroingenio.streamlit.app/~/+/media/494e0dfd8d06c829162b2b15878906b2770a25553f0b791656c4f096.jpg"
+        image_src = "resources/images/colombia-heritage-logo.jpg"
 
         if location_type != 'Patrimonio Industrial,WayPoint':
 
