@@ -11,7 +11,7 @@ import streamlit as st
 st.set_page_config(layout="wide")
 
 st.sidebar.header(":compass: AgroIngenio")
-st.sidebar.markdown("Soporte Colaborativo para la Protección del Patrimonio Industrial y Agroindustrial Colombiano :material/search_check:")
+st.sidebar.markdown("Soporte Colaborativo para la Protección del Patrimonio Industrial y Agroindustrial Colombiano :material/search_check: [Versión Alpha]")
 
 main = st.Page(
     "pages/Main.py", title="Principal", icon=":material/home:", default=True
@@ -33,8 +33,7 @@ maps = st.Page(
 pg = st.navigation(
     {
         "Main": [main],
-        "Items": [sites, routes],
-        "Maps": [maps]
+        "Selection": [sites, routes, maps]
     }
 )
 

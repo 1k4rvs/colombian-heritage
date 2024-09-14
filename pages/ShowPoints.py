@@ -35,7 +35,7 @@ location_group_types_to_show = left_pane.multiselect(
              "Puertos Marítimos", "Puertos Fluviales",
              "Capitales", "Volcanes", "Estaciones de Tren",
              "Patrimonio Industrial"],
-    default=["Capitales"]
+    default=["Capitales", "Puertos Marítimos", "Puertos Fluviales",]
 )
 
 # Departments to Show
@@ -46,8 +46,7 @@ departments_to_show = left_pane.multiselect(
     default=sorted(set(departments_df['Department']))
 )
 
-
-with right_pane:
+with (right_pane):
 
     # Create a Map of Colombia
     m = folium.Map(location=[6.3709, -75.2973], zoom_start=6)
@@ -100,9 +99,13 @@ with right_pane:
 
     for idx, row in locations_df.iterrows():
 
-        location_type = f'{row['Type']},{row['Subtype']}'.replace(',nan','')
+        location_type = f'{row['Type']},{row['Subtype']}'
+        if location_type.endswith('nan'):
+            location_type = location_type.replace(',nan','')
+
         location_group = location_types[location_type]['location_group']
         location_department = row['Department']
+        
         # st.sidebar.write(f'{location_type} > {location_group} > {location_department}')
 
         if location_group in location_group_types_to_show and location_department in departments_to_show:
