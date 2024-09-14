@@ -99,7 +99,7 @@ with (right_pane):
 
     for idx, row in locations_df.iterrows():
 
-        location_type = f'{row['Type']},{row['Subtype']}'
+        location_type = f"{row['Type']},{row['Subtype']}"
         if location_type.endswith('nan'):
             location_type = location_type.replace(',nan','')
 
