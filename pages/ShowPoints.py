@@ -111,7 +111,8 @@ with right_pane:
                 <h4>{row['Name']}</h4>
                 <img src="{image_src}" width="150"><br>
                 <p>{row['Department']}, {row['City']}</p>
-                <p>Location: {m.location}</p>               
+                <p>Location: {m.location}</p>
+                <p>Image Type Linked {image_src}</p>                              
             """
             iframe = IFrame(html, width=300, height=300)
             popup = folium.Popup(iframe, max_width=2650)

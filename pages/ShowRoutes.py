@@ -109,7 +109,8 @@ with left_pane:
                 <h4>{row['Name']}</h4>
                 <img src="data:image/jpg;base64,{image_base64}" width="150"><br>
                 <p>{row['Department']}, {row['City']}</p>
-                <p>Location: {m.location}</p>               
+                <p>Location: {m.location}</p>
+                <p>Image Type Base64</p>                              
             """
 
             iframe = IFrame(html, width=300, height=300)
