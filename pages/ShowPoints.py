@@ -17,8 +17,6 @@ locations_df = pd.concat([pd.read_csv(f'data/{filename}') for filename in data_f
 available_departments = set(industrial_heritage_df['Department'])
 # st.write(available_departments)
 
-debug = st.expander("See Data in use")
-
 left_pane, right_pane =  st.columns([2, 3])
 
 # Protection Type to Show
@@ -35,7 +33,7 @@ location_group_types_to_show = left_pane.multiselect(
              "Puertos Marítimos", "Puertos Fluviales",
              "Capitales", "Volcanes", "Estaciones de Tren",
              "Patrimonio Industrial"],
-    default=["Capitales", "Puertos Marítimos", "Puertos Fluviales",]
+    default=["Capitales", "Puertos Marítimos", "Puertos Fluviales", "Patrimonio Industrial"]
 )
 
 # Departments to Show
@@ -46,7 +44,7 @@ departments_to_show = left_pane.multiselect(
     default=sorted(set(departments_df['Department']))
 )
 
-with (right_pane):
+with right_pane:
 
     # Create a Map of Colombia
     m = folium.Map(location=[6.3709, -75.2973],
@@ -56,8 +54,6 @@ with (right_pane):
     # Icon Definition
     with open('data/location_types.json') as json_file:
         location_types = json.load(json_file)
-
-    debug.write(location_types)
 
     location_types={
         'Capitales': {'location_group': 'Capitales',
@@ -92,12 +88,6 @@ with (right_pane):
     # List to hold all visible locations' coordinates
     visible_locations = []
     visible_locations_info = []
-
-    debug.write('location_group_types_to_show')
-    debug.write(f'{location_group_types_to_show}')
-
-    debug.write('departments_to_show')
-    debug.write(f'{departments_to_show}')
 
     for idx, row in locations_df.iterrows():
 
@@ -146,8 +136,6 @@ with (right_pane):
             )
 
 
-    debug.write('visible_locations_info')
-    debug.write(visible_locations_info)
 
     # Adjust zoom based on the number of visible locations
     if len(visible_locations) == 1:
@@ -162,3 +150,15 @@ with (right_pane):
 
     # Mostrar el mapa en Streamlit
     folium_static(m, width=600, height=620)
+
+
+debug = st.expander("See Data in use")
+
+debug.write('location_group_types_to_show')
+debug.write(f'{location_group_types_to_show}')
+
+debug.write('departments_to_show')
+debug.write(f'{departments_to_show}')
+
+debug.write('visible_locations_info')
+debug.write(visible_locations_info)

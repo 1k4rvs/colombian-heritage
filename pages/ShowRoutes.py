@@ -21,9 +21,7 @@ routes = {
     },
 }
 
-debug = st.expander("See Data in use")
-
-left_pane, right_pane =  st.columns([3, 2])
+left_pane, right_pane =  st.columns([4, 1])
 
 # Protection Type to Show
 selected_route = left_pane.selectbox(
@@ -35,8 +33,6 @@ selected_route = left_pane.selectbox(
 locations_df = pd.read_csv(f"data/{routes[selected_route]['main_points']}")
 list_of_ways = routes[selected_route]['ways']
 
-debug.write(list_of_ways)
-right_pane.write(locations_df)
 
 with left_pane:
 
@@ -73,9 +69,6 @@ with left_pane:
             {'location_group': 'Patrimonio Industrial',
              'icon_name': 'cable-car', 'icon_color': 'cadetblue', 'icon_prefix': 'fa'}
     }
-
-    debug.write(location_types)
-
 
     # List to hold all visible locations' coordinates
     visible_locations = []
@@ -131,12 +124,10 @@ with left_pane:
             f"{location_types[location_type]['icon_prefix']} "
         )
 
-        debug.write(visible_locations_info)
-
         previous_point = new_point
 
-    debug.write('visible_locations_info')
-    debug.write(visible_locations_info)
+    # debug.write('visible_locations_info')
+    # debug.write(visible_locations_info)
 
 
     # Add Way Points
@@ -171,3 +162,11 @@ with left_pane:
 
     # Show map
     folium_static(m, width=800, height=620)
+
+debug = st.expander("See Data in use")
+debug.write(list_of_ways)
+debug.write(locations_df)
+debug.write(location_types)
+debug.write(visible_locations_info)
+
+
