@@ -41,7 +41,11 @@ right_pane.write(locations_df)
 with left_pane:
 
     # Create a Map of Colombia
-    m = folium.Map(location=[6.3709, -75.2973], zoom_start=6, min_zoom=5, max_zoom=15)
+    m = folium.Map(location=[6.3709, -75.2973],
+                   zoom_start=6, min_zoom=5, max_zoom=16,
+                   min_lat=16, max_lat= -1,
+                   min_lon=-82, max_lon= -66,
+                   )
 
     # Icon Definition
     with open('data/location_types.json') as json_file:
