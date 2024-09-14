@@ -117,11 +117,11 @@ with left_pane:
             folium.PolyLine(points, color="red", weight=3.5, dash_array='15', opacity=1).add_to(m)
 
         visible_locations_info.append(
-            f'{location_type} {location_group} '
-            f'{row['Name']} {row['Department']} {row['City']} '
-            f'{location_types[location_type]['icon_color']} '
-            f'{location_types[location_type]['icon_name']} '
-            f'{location_types[location_type]['icon_prefix']}'
+            f"{location_type} {location_group} "
+            f"{row['Name']} {row['Department']} {row['City']} "
+            f"{location_types[location_type]['icon_color']} "
+            f"{location_types[location_type]['icon_name']} "
+            f"{location_types[location_type]['icon_prefix']} "
         )
 
         debug.write(visible_locations_info)
