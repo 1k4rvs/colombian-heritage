@@ -49,6 +49,9 @@ with left_pane:
 
     # Icon Definition
     location_types = {
+        'Patrimonio Industrial,WayPoint':
+         {'location_group': 'WayPoint',
+             'icon_name': 'circle-dot', 'icon_color': 'cadetblue', 'icon_prefix': 'fa'},
         'Patrimonio Industrial,Ferrocarril':
             {'location_group': 'Patrimonio Industrial',
              'icon_name': 'train', 'icon_color': 'cadetblue', 'icon_prefix': 'fa'},
@@ -94,12 +97,7 @@ with left_pane:
                 <p>{row['Department']}, {row['City']}</p>
                 <p>Location: {m.location}</p>               
             """
-            html = f"""
-                <h4>{row['Name']}</h4>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Cabo_de_la_Vela%2C_Colombia.jpg/1280px-Cabo_de_la_Vela%2C_Colombia.jpg" width="150"><br>
-                <p>{row['Department']}, {row['City']}</p>
-                <p>Location: {m.location}</p>               
-            """
+
             iframe = IFrame(html, width=300, height=300)
             popup = folium.Popup(iframe, max_width=2650)
 
